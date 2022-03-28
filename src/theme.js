@@ -15,7 +15,7 @@ import { createTheme } from '@mui/material/styles';
         },
       },
       typography: {
-        fontFamily: '"Maven Pro","Roboto", "Helvetica", "Arial", sans-serif' ,
+        fontFamily: '"Maven Pro", "Helvetica", "Arial", sans-serif' ,
         h2: {
             fontFamily: 'Maven Pro',
           },
