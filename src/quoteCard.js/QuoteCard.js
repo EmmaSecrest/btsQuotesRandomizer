@@ -30,7 +30,7 @@ export default function QuoteCard(){
               align="center"
               color="#fff"
               fontFamily='Maven Pro'
-              gutterBottom
+              
             >
               Quote 
             </Typography>
