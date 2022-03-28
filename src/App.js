@@ -11,7 +11,7 @@ import  theme  from './theme';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" color="#fff" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Your Website
@@ -27,7 +27,7 @@ function Copyright() {
 
 
 
-export default function Album() {
+export default function Main() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -45,7 +45,7 @@ export default function Album() {
         <Typography
           variant="subtitle1"
           align="center"
-          color="text.secondary"
+          color="#fff"
           component="p"
         >
           Something here to give the footer a purpose!
