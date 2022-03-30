@@ -338,5 +338,161 @@ const quotes =[
     {
         quote:"I like puppy",
         speaker:"Min Yoongi"
-    }
+    },
+    {
+        quote: "Infires Man!",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"Swag",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"I’m a bad boy",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"It’s so hot ARMY because…..of you",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"Eat Sleep Work",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"I own the copyrights!",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"I’m your hope, you’re my hope, I am J-hope!",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"I like kimchi fried rice… and sprite.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"I like hamburger and sprite",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Sorry. We’re on an important business",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Strong Power Thank You.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Jimin… you got no jams.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Pornesian Parapio",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Haters gonna hate, player gonna play, live your life man good luck",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Why you sad? I don’t know nan molla",
+        speaker:"Kim Namjoon"
+    }, 
+    {
+        quote:"Can I have some bottle of watah! harry potah! professah! shut up Malfoy shut up!",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"It's a fish bread but not fish bread. Ain't no fish inside.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Excuse Me",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"I’m so Lovely, You so Lovely, We so Lovely. lovely Lovely Lovely.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Jimin you nice keep going",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"We have different Clothes",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"lachimolala",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Sexy, cute, lovely.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"I’m God",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"Turn up",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"Panda Express",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"Color changing soup",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"I'm good boy",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"Not Not No",
+        speaker: "Kim Taehyung"
+    },
+    {
+        quote:"Shit down",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"I like country side!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Let's get it!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Trusfrated",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Party Party yeaaaahh I say this now everytime I am out",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"I’m not drunk. It’s just that I’m buffering.",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"He must have been homeschooled. (Referring to RM after he tried to write on a blackboard with a marker)",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"He (Yoongi) looks cool, like a fatal vampire type of guy. I want to give him my blood.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"I cook my cereal",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"You are soo mean bouncy balls",
+        speaker:"Jeon Jungkook"
+    },
 ]
