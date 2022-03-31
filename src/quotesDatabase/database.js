@@ -495,4 +495,224 @@ const quotes =[
         quote:"You are soo mean bouncy balls",
         speaker:"Jeon Jungkook"
     },
+    {
+        quote:"Sexy,cute,lovely",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Jimin J-I-M-I-N This is my name",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"I’m pig.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"Can you speak more slush",
+        speaker:"Kim Taehyung"
+    },
+    {
+       quote:"I’m proud of you maan-",
+       speaker:"Kim Taehyung" 
+    },
+    {
+        quote:"Rrrrrrrrrrraaaaapp Monstaaaaaaaaa!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"You can’t stop me I’m Beyoncé!",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"#1, Safety! #2, Safety! #3, Coolness!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Give me chicken!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"If you want to love others, I think you should love yourself first",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"I have a big heart full of love, so please take it all.",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"Those who want to look more youthful should live life with a young heart",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"I have come to love myself for who I am, for who I was, and for who I hope to become.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Your presence can give happiness. I hope you remember that.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"Life is a sculpture that you cast as you make mistakes and learn from them.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"No sleep makes a human into another human.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"I’m like a surfer, first you just paddle and fall off the board but as time goes by you can stand up on the bigger waves.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘it’s okay.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Even if it’s a road of thorns, we still run.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"They say people live to be happy. If you actually think about what happiness is, it’s nothing much. When you get to eat ramen after feeling really, really hungry, that’s happiness.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Not so perfect, but so beautiful",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"Isn’t a man someone who doesn’t care about what others think? A man does whatever he wants.",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:" My good luck charm is my face.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"I’m always afraid of making mistakes. I think I was born with that.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Find your name, find your voice by speaking yourself.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Even when this rain stops, when clouds go away, I stand here, just the same.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Life is tough, and things don’t always work out well, but we should be brave and go on with our lives.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"A warm smile is the universal language of kindness.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"I believe that there’s no improvement if you have an inferiority complex and victim mentality.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Live life with no worries.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"Once your heart is moved, it will develop to something better and positive.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Where you stand now is what defines you.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Emotions are so different in every situation and every moment, so I think to agonize every moment is what life is.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"Know that the pain will pass. And when it does you will be stronger.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Even if you’re not perfect, you’re a limited edition",
+        speaker:"Kim Namjoon from Do You"
+    },
+    {
+        quote:"You never know the value of what you have until you lose it.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Let’s not push off the things we need to do today for tomorrow.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"All our dreams come true, if we have the courage to pursue them.",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Life isn’t about being perfect; it’s about accomplishing your dreams.",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"Never give up on a dream that you’ve been chasing almost your whole life.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"I would like to ask all of you. What is your name? What excites you and makes your heart beat?",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"When things get hard, stop for awhile and look back and see how far you’ve come. Don’t forget how rewarding it is.",
+        speaker:"Kim Taehyung"
+    },
+    {
+        quote:"We’re on some path that’s set since we’re born, but I still believe we can change some things. So I believe in my faith but I still don’t believe in my fate .",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Even if I am a little hurt it's ok",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"When I’m not working, all I really want to do is something I enjoy for myself. In that case, people might wonder why you’re doing things that won’t help you in life, but I think that time’s important for everyone. Society is always seeking out the things that are useful. And that’s good, too, but for our own sake, I think we require time to find stability in our own minds, even if it looks useless in the eyes of others.",
+        speaker:"Kim Seokjin from Weverse Butter album interview"
+    },
+    {
+        quote:"go hospital plz",
+        speaker:"Kim Seokjin on Weverse 2019"
+    },
+    {
+        quote:"To live out as I am the death of me",
+        speaker:"Kim Namjoon on Weverse"
+    },
+    {
+        quote:"R U riding?",
+        speaker:"Jung Hoseok on Weverse 2019"
+    },
+    {
+        quote:"You'd better get out of the imagination, it's not good in there",
+        speaker:"Kim Taehyung on Weverse 2019"
+    },
+    {
+        quote:"Dad jokes dont work unless you are handsome",
+        speaker:"Kim Seokjin on Weverse"
+    },
+    {
+        quote:"Suga Study Method: Don't",
+        speaker:"Min Yoongi on Weverse 2019"
+    },
+    {
+        quote:"I personally don't like people",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"It is like life is soup and I am a fork",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"If it is fake love then it has to be sexual",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"My butt was almost destroyed",
+        speaker:"Jung Hoseok"
+    }
 ]
