@@ -714,5 +714,77 @@ const quotes =[
     {
         quote:"My butt was almost destroyed",
         speaker:"Jung Hoseok"
-    }
+    },
+    {
+        quote:"Those who keep trying without giving up are the ones who succeed.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"You worked hard—keep trying your best.",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"If any of you feels lost in the face of uncertainty or the pressure of starting anew, don’t rush. Take a deep breath. You may find that any moment can be turned into opportunity.",
+        speaker:"Kim Seokjin"   
+    },
+    {
+        quote:"Life is tough and things don’t always work out well, but we should be brave and go on with our lives.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"Please don’t be afraid, don’t worry yourself. The end and beginning, beginning and end are connected.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"I really want to say that everyone in the world is lonely and everyone is sad, and if we know that everyone is suffering and lonely, I hope we can create an environment where we can ask for help and say things are hard when they’re hard and say that we miss someone when we miss them.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"No one else can take responsibility for you.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"When things get tough, look at the people who love you! You will get energy from them.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Remember: You are the leader of your own life, and chant it over and over again. ‘I can do it. You got it. I can do it well. I can do it better than anybody.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"I feel like I live with a sense of mission. Rather than thinking, It has to be perfect! I do what I have to do, making sure I remember the really important and fundamental things and trust that the results will follow.",
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"I want to hear your voice…no matter who you are, where you’re from, your skin color, gender identity: Speak yourself.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"We may be seeing each other through just a camera on this small screen, but I know your future will bloom to something much bigger and magnificent",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"My songs have made me someone who constantly observes society and wants to be a person who can have a better, positive impact on other people.",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"We did say that you don’t have to dream, but living a life without dreams or hope would be quite dim, wouldn’t it?",
+        speaker:"Kim Namjoon"
+    },
+    {
+        quote:"Once your heart is moved, it will develop to something better and positive.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"Silence is golden. Don’t waste time.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"I hope you will never give up. Remember there is a person here in Korea, in the city of Seoul, who understands you.",
+        speaker:"Park Jimin"
+    },
+    {
+        quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘It’s okay.",
+        speaker:"Park Jimin"
+    },
 ]
