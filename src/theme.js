@@ -10,8 +10,8 @@ import { createTheme } from '@mui/material/styles';
           main: '#f50057',
         },
         background: {
-          default: '#743fb9',
-          paper: '#743fb9',
+          default: 'transparent',
+          paper: 'transparent',
         },
       },
       typography: {
