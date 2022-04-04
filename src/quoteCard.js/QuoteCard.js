@@ -29,12 +29,12 @@ export default function QuoteCard(){
               variant="h2"
               align="center"
               color="#fff"
-              fontFamily='Maven Pro'
+              fontFamily='Arial'
               
             >
               Quote 
             </Typography>
-            <Typography variant="h5" align="center" color="#fff" paragraph>
+            <Typography variant="h5" align="center" color="#fff" paragraph fontStyle='italic'>
               Speaker
             </Typography>
             <Stack
@@ -42,6 +42,7 @@ export default function QuoteCard(){
               direction="row"
               spacing={2}
               justifyContent="center"
+             
             >
               {/* <Button variant="contained">Main call to action</Button>
               <Button variant="outlined">Secondary action</Button> m*/}
