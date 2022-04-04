@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material/styles';
-const gradient = 'linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 100%)';
 
  const theme = createTheme({
    
@@ -12,7 +11,7 @@ const gradient = 'linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 1
           main: '#f50057',
         },
         background: {
-          default: gradient,
+          default: 'linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 100%)',
           paper: '#743fb9',
         },
       },
