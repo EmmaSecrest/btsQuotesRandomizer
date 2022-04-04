@@ -1,4 +1,4 @@
-const quotes =[
+export const quotes =[
     {
         quote:"To be honest, I'm cuter than him,especially now with my bangs",
         speaker:'Park Jimin'
@@ -786,5 +786,49 @@ const quotes =[
     {
         quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘It’s okay.",
         speaker:"Park Jimin"
+    },
+    {
+        quote:"Ah![I told you] I'm really a super-antibody",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"I want to throw myself away",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"My mom saw me on tv and told me I looked like a boiled dumpling",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote:"I truly believe that water can solve all of our problems. Clear skin? drink water. Weight loss? drink water. Tired of someone? Drown them",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote:"I haven't burped since I debuted",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"Salt is salty,so it'll be salty",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"If your heart is not beating,it means you're dead",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:'"Daydream" is a dream you have in the day',
+        speaker:"Jung Hoseok"
+    },
+    {
+        quote:"Maybe I was a vampire in my previous life. Thats why I am so handsome. A vampire that never gets old. I guess thats what I was",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"I am the only 10 here, while everyone else is an 8",
+        speaker:"Kim Seokjin"
+    },
+    {
+        quote:"We don’t feel the best but i think it’s good to be honest. we can be sad today and be okay tomorrow!",
+        speaker:"Kim Namjoon from VLive on April 4th 2022 after loosing at the Grammys"
     },
 ]
