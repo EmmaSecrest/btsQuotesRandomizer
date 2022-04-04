@@ -1,6 +1,8 @@
 import { createTheme } from '@mui/material/styles';
+const gradient = 'linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 100%)';
 
  const theme = createTheme({
+   
     palette: {
         type: 'dark',
         primary: {
@@ -10,7 +12,7 @@ import { createTheme } from '@mui/material/styles';
           main: '#f50057',
         },
         background: {
-          default: '#743fb9',
+          default: gradient,
           paper: '#743fb9',
         },
       },
