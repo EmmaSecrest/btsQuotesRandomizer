@@ -9,11 +9,19 @@ import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import {  ThemeProvider } from '@mui/material/styles';
 import  theme  from './theme';
+import Paper from '@mui/material/Paper';
 
 export default function Main() {
   return (
   <ThemeProvider theme={theme}>
     <CssBaseline />
+    <Paper
+        sx={{
+          backgroundImage:
+            "linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 100%)",
+          height: "100vh",
+        }}
+      >
       <Container maxWidth='false' height= '100vw'  disableGutters>
       <main>
         {/* Hero unit */}
@@ -24,6 +32,7 @@ export default function Main() {
       <Footer />
       {/* End footer */}
     </Container>
+    </Paper>
   </ThemeProvider>
   );
 }
