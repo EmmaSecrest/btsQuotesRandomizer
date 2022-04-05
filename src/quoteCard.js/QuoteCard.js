@@ -4,8 +4,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
-import {  ThemeProvider } from '@mui/material/styles';
-import  theme  from '../theme';
+
 
 import Typography from '@mui/material/Typography';
 
@@ -15,7 +14,7 @@ export default function QuoteCard(){
    
     
     return(
-        <ThemeProvider theme={theme}>
+        
         <Box
           sx={{
             bgcolor: 'background.paper',
@@ -49,6 +48,6 @@ export default function QuoteCard(){
             </Stack>
           </Container>
         </Box>
-    </ThemeProvider>
+    
     )
 }
