@@ -1,17 +1,16 @@
 import * as React from 'react';
-
-
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
-
-
 import Typography from '@mui/material/Typography';
-
+import { quotes } from '../quotesDatabase/database';
+import { useState } from 'react';
 
 
 export default function QuoteCard(){
+   const quotesLength = quotes.length;
    
+   const [quoteIndex ,setQuoteIndex] = useState(Math.floor(Math.random() * quotesLength))
     
     return(
         
@@ -31,10 +30,10 @@ export default function QuoteCard(){
               fontFamily='Arial'
               
             >
-              Quote 
+              {quotes[quoteIndex].quote} 
             </Typography>
             <Typography variant="h5" align="center" color="#fff" paragraph fontStyle='italic'>
-              Speaker
+              - {quotes[quoteIndex].speaker}
             </Typography>
             <Stack
               sx={{ pt: 4 }}
