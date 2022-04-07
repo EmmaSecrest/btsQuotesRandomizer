@@ -831,4 +831,8 @@ export const quotes =[
         quote:"We don’t feel the best but i think it’s good to be honest. we can be sad today and be okay tomorrow!",
         speaker:"Kim Namjoon from VLive on April 4th 2022 after loosing at the Grammys"
     },
+    {
+        quote:"I believe in fate so I hope something good happens. It doesn't have to be to me but to those around me. I hope the good energy goes towards me and others.",
+        speaker: "Jeon Jungkook on Vlive"
+    }
 ]
