@@ -12,9 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.MuiContainer-root {
-  height: 35vw;
+/* .MuiContainer-root {
+  height: 50vw;
   padding-left: 0;
   padding-right: 0;
-}
+} */
 

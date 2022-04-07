@@ -564,7 +564,7 @@ export const quotes =[
         speaker:"Kim Namjoon"
     },
     {
-        quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘it’s okay.",
+        quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘it’s okay'.",
         speaker:"Park Jimin"
     },
     {
@@ -781,10 +781,6 @@ export const quotes =[
     },
     {
         quote:"I hope you will never give up. Remember there is a person here in Korea, in the city of Seoul, who understands you.",
-        speaker:"Park Jimin"
-    },
-    {
-        quote:"We are all in different parts of the world, in different environments and circumstances, but at this moment, I hope we can all give each other a warm pat on the back and say, ‘It’s okay.",
         speaker:"Park Jimin"
     },
     {

@@ -5,6 +5,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { quotes } from '../quotesDatabase/database';
 import { useState } from 'react';
+import { Image } from 'mui-image';
 
 
 export default function QuoteCard(){
@@ -22,16 +23,22 @@ export default function QuoteCard(){
           }}
         >
           <Container maxWidth="sm">
-            <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="#fff"
-              fontFamily='Arial'
+            <Box>
               
-            >
-              {quotes[quoteIndex].quote} 
-            </Typography>
+                
+                <Typography
+                  component="h1"
+                  variant="h2"
+                  align="center"
+                  color="#fff"
+                  fontFamily='Arial'
+                  fontSize = {45}
+                  >
+                  {quotes[quoteIndex].quote} 
+                  
+                </Typography>
+              
+            </Box>
             <Typography variant="h5" align="center" color="#fff" paragraph fontStyle='italic'>
               - {quotes[quoteIndex].speaker}
             </Typography>
