@@ -19,7 +19,7 @@ export default function Main() {
         sx={{
           backgroundImage:
             "linear-gradient(0deg, rgba(156,61,221,1) 0%, rgba(28,6,48,1) 100%)",
-          height: "100vh",
+          height: "150vh",
         }}
       >
       <Container maxWidth='false' height= '100vw'  disableGutters>

@@ -23,6 +23,9 @@ import { createTheme } from '@mui/material/styles';
             color: "pink"
           },
       },
+      button: {
+        textTransform: 'none'
+      }
 })
 
 export default theme;
