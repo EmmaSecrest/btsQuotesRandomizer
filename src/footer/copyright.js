@@ -6,10 +6,10 @@ export default function Copyright() {
       <Typography variant="body2" color="#fff" align="center">
         {'Copyright © '}
         <Link color="inherit" href="https://mui.com/">
-          Your Website
+          BTSquotesRandomizer
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
       </Typography>
     );
-  }
+  } 

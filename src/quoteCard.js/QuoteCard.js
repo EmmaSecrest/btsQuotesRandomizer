@@ -18,6 +18,14 @@ export default function QuoteCard(){
     //  console.log("You Clicked the button")
     setQuoteIndex(Math.floor(Math.random() * quotesLength))
    }
+
+   /* Possible share buttons:
+      1. Twitter
+      2.Facebook
+      3.linkedIn
+      4.instagram? not exactly sure how that would work since this is just text 
+      5. Weverse
+   */
     
     return(
         
