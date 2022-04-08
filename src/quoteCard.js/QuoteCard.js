@@ -6,12 +6,18 @@ import Typography from '@mui/material/Typography';
 import { quotes } from '../quotesDatabase/database';
 import { useState } from 'react';
 import { Image } from 'mui-image';
+import { Button } from '@material-ui/core';
 
 
 export default function QuoteCard(){
    const quotesLength = quotes.length;
    
    const [quoteIndex ,setQuoteIndex] = useState(Math.floor(Math.random() * quotesLength))
+
+   function getNewQuote(){
+    //  console.log("You Clicked the button")
+    setQuoteIndex(Math.floor(Math.random() * quotesLength))
+   }
     
     return(
         
@@ -32,7 +38,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize = {45}
+                  fontSize = {40}
                   >
                   {quotes[quoteIndex].quote} 
                   
@@ -49,8 +55,10 @@ export default function QuoteCard(){
               justifyContent="center"
              
             >
-              {/* <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button> m*/}
+              <Button 
+                variant="outlined" 
+                style ={{ color: "#d8c1e0" , fontFamily:"Arial", border:'1px solid #d8c1e0'  }} onClick = {() => getNewQuote()} > New Quote</Button>
+              {/* <Button variant="outlined">Secondary action</Button>  */}
             </Stack>
           </Container>
         </Box>
