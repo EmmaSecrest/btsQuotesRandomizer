@@ -12,47 +12,19 @@ import { Button } from '@material-ui/core';
 import {
   EmailShareButton,
   FacebookShareButton,
-  HatenaShareButton,
-  InstapaperShareButton,
-  LineShareButton,
   LinkedinShareButton,
-  LivejournalShareButton,
-  MailruShareButton,
-  OKShareButton,
-  PinterestShareButton,
-  PocketShareButton,
   RedditShareButton,
-  TelegramShareButton,
-  TumblrShareButton,
   TwitterShareButton,
-  ViberShareButton,
-  VKShareButton,
   WhatsappShareButton,
-  WorkplaceShareButton
-} from "react-share";
+  } from "react-share";
 import {
   EmailIcon,
   FacebookIcon,
-  FacebookMessengerIcon,
-  HatenaIcon,
-  InstapaperIcon,
-  LineIcon,
   LinkedinIcon,
-  LivejournalIcon,
-  MailruIcon,
-  OKIcon,
-  PinterestIcon,
-  PocketIcon,
   RedditIcon,
-  TelegramIcon,
-  TumblrIcon,
   TwitterIcon,
-  ViberIcon,
-  VKIcon,
-  WeiboIcon,
   WhatsappIcon,
-  WorkplaceIcon
-} from "react-share";
+  } from "react-share";
 import { Grid } from '@mui/material';
 
 
@@ -66,15 +38,8 @@ export default function QuoteCard(){
     setQuoteIndex(Math.floor(Math.random() * quotesLength))
    }
 
-   /* Possible share buttons:
-      1. Twitter
-      2.Facebook
-      3.linkedIn
-      4.instagram? not exactly sure how that would work since this is just text 
-      5. Weverse
-   */
-    const shareString = quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker;
-    
+  // need to stop quote reshuffle on reload
+  
     return(
         
         <Box
@@ -135,7 +100,7 @@ export default function QuoteCard(){
                     </Grid>
                     <Grid item>
                       <LinkedinShareButton
-                        title= {shareString}
+                        title= {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
                         summary= "Check out more at BTSquotesRandomizer"
                         source='BTS Quotes Randomizer'
                         url="google.com" // change later
