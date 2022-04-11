@@ -5,7 +5,6 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { quotes } from '../quotesDatabase/database';
 import { useState } from 'react';
-import { Image } from 'mui-image';
 import { Button } from '@material-ui/core';
 // import Grid from '@mui/material/Grid';
 
