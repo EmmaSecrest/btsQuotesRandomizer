@@ -113,8 +113,8 @@ export default function QuoteCard(){
                         subject='BTS Quote of the Day!'
                         body={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
                         url='test.com' // change later
-                        target = '_self'
-                        rel="noopener noreferrer"
+                        openShareDialogOnClick
+                        onClick={() => {}}
                       >
                         <EmailIcon />
                       </EmailShareButton>
