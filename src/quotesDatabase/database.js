@@ -1,6 +1,6 @@
 export const quotes =[
     {
-        quote:"To be honest, I'm cuter than him,especially now with my bangs",
+        quote:"To be honest, I'm cuter than him [referring to a small white pomeranian],especially now with my bangs",
         speaker:'Park Jimin'
     },
     {

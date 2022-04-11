@@ -12,7 +12,7 @@ export default function Footer(){
           color="#fff"
           component="p"
         >
-          Some quotes were translated from korean and may not be accurate.
+          Some quotes were translated from Korean and may not be accurate.
         </Typography>
         < Copyright />
       </Box>
