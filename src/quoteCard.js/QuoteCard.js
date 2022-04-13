@@ -86,9 +86,7 @@ export default function QuoteCard(){
                 justifyContent="center"
                 alignItems="center"
                 position='relative'
-                
-
-               >
+                >
                 <Grid item>
                   <Button 
                     variant="outlined" 
