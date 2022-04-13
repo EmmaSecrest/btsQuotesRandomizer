@@ -12,20 +12,12 @@ export const quotes =[
         speaker:'Kim Namjoon'
     },
     {
-        quote:"There’s 100% of success, I’ll give 50, half to ARMYs. The other half, we put like 5% each, so that’s 35. And I give 15% to the co. So if it’s a trophy, my % is like 5, only an edge of the trophy. Success is not all ours I always try to realize that",
-        speaker:"Kim Namjoon"
-    },
-    {
         quote:"I live to Understand the world, but the world has never understood me",
         speaker:"Kim Namjoon"
     },
     {
        quote:"Maybe I made a mistake yesterday, but yesterday's me is still me. Today I am who I am with all of my mistakes & faults. Tomorrow, I might be a tiny bit wiser and that would still be me too.",
-       speaker: "Kim Namjoon from UN unicef speech in 2019" 
-    },
-    {
-        quote:"If any of you feels lost in the face of doubt or uncertainty, or the pressure of starting anew, don't rush. Take a deep breath. You may find that any moment can be turned into an opportunity. Allow yourself to take it easy. Take it one step at a time.",
-        speaker:"Kim Seokjin from Dear class of 2020 YouTube commencement speech"
+       speaker: "Kim Namjoon" 
     },
     {
         quote:"I don't have think",
@@ -74,10 +66,6 @@ export const quotes =[
     {
         quote:"Don't be trapped in someone else's dream.",
         speaker:"Kim Taehyung"
-    },
-    {
-        quote:"Effort makes you. You will regret someday if you don’t do your best now. Don’t think it’s too late but keep working on it. It may take time, but there’s nothing that gets worse due to practising. So practise. You may get depressed, but its evidence that you are doing good.",
-        speaker:"Jeon JungKook"
     },
     {
         quote:"If you can't respect, don't even open your mouth",
@@ -174,10 +162,6 @@ export const quotes =[
     {
         quote:"Everyone, BTS is strong. You have to be careful!",
         speaker:"Kim Namjoon"
-    },
-    {
-        quote:"If they talk about it openly — if they talk about depression for example like it’s the common cold, then it becomes more and more accepted. I think artists or celebrities who have a voice should talk about these problems and bring it up to the surface.",
-        speaker:"Min Yoongi"
     },
     {
         quote:"All I could say is that my face was fancy",
@@ -672,10 +656,6 @@ export const quotes =[
         speaker:"Park Jimin"
     },
     {
-        quote:"When I’m not working, all I really want to do is something I enjoy for myself. In that case, people might wonder why you’re doing things that won’t help you in life, but I think that time’s important for everyone. Society is always seeking out the things that are useful. And that’s good, too, but for our own sake, I think we require time to find stability in our own minds, even if it looks useless in the eyes of others.",
-        speaker:"Kim Seokjin from Weverse Butter album interview"
-    },
-    {
         quote:"go hospital plz",
         speaker:"Kim Seokjin on Weverse 2019"
     },
@@ -736,10 +716,6 @@ export const quotes =[
         speaker:"Min Yoongi"
     },
     {
-        quote:"I really want to say that everyone in the world is lonely and everyone is sad, and if we know that everyone is suffering and lonely, I hope we can create an environment where we can ask for help and say things are hard when they’re hard and say that we miss someone when we miss them.",
-        speaker:"Min Yoongi"
-    },
-    {
         quote:"No one else can take responsibility for you.",
         speaker:"Min Yoongi"
     },
@@ -749,10 +725,6 @@ export const quotes =[
     },
     {
         quote:"Remember: You are the leader of your own life, and chant it over and over again. ‘I can do it. You got it. I can do it well. I can do it better than anybody.",
-        speaker:"Jung Hoseok"
-    },
-    {
-        quote:"I feel like I live with a sense of mission. Rather than thinking, It has to be perfect! I do what I have to do, making sure I remember the really important and fundamental things and trust that the results will follow.",
         speaker:"Jung Hoseok"
     },
     {
@@ -830,5 +802,37 @@ export const quotes =[
     {
         quote:"I believe in fate so I hope something good happens. It doesn't have to be to me but to those around me. I hope the good energy goes towards me and others.",
         speaker: "Jeon Jungkook on Vlive"
+    },
+    {
+        quote: "Your support encouraged me and took my worries away. Thank you! I love you!",
+        speaker:"Jeon Jungkook"
+    },
+    {
+        quote: "We don't dwell in the past. We only live in the present and the future.",
+        speaker:"Min Yoongi"
+    },
+    {
+        quote: "Everything becomes a bad thing when you think negative. When you think positive, it becomes better.",
+        speaker:"Kim Seokjin in Bon Voyage Season 2"
+    },
+    {
+        quote:"I'm here to save you, I'm here to ruin you,You're the one who called me, see how it's sweet",
+        speaker: "Kim Taehyung"
+    },
+    {
+        quote: "it is true, when BTS meets ARMY, the desert becomes an ocean",
+        speaker: "Jung Hoseok"
+    },
+    {
+        quote: "All the members have a lot of energy. The way I see it, army is like our battery. ARMY that makes us move, i love you!",
+        speaker: "Jung Hoseok"
+    },
+    {
+        quote: "Just focus on positive vibes. I know it's hard but life is too short to focus on the negatives",
+        speaker: "Kim Namjoon"
+    },
+    {
+        quote:"It's the nature of life that things don't stay the same.",
+        speaker: "Min Yoongi"
     }
 ]

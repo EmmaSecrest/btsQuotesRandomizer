@@ -91,7 +91,7 @@ export default function QuoteCard(){
                     <Grid item>
                     <FacebookShareButton 
                           quote={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                          url= 'http://btsquotesrandomizer.com/' // change later
+                          url= 'http://btsquotesrandomizer.com/' 
                           hashtag='#btsARMY #btsQuotesRandomizer'
                           > 
                         <FacebookIcon />
@@ -102,7 +102,7 @@ export default function QuoteCard(){
                         title= {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
                         summary= "Check out more at BTSquotesRandomizer"
                         source='BTS Quotes Randomizer'
-                        url="http://btsquotesrandomizer.com/" // change later
+                        url="http://btsquotesrandomizer.com/" 
                       >
                         <LinkedinIcon/>
                       </LinkedinShareButton>
@@ -111,7 +111,7 @@ export default function QuoteCard(){
                       <EmailShareButton 
                         subject='BTS Quote of the Day!'
                         body={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                        url='http://btsquotesrandomizer.com/' // change later
+                        url='http://btsquotesrandomizer.com/'
                         target = '_self'
                         rel="noopener noreferrer"
                       >
@@ -121,7 +121,7 @@ export default function QuoteCard(){
                     <Grid item>
                       <RedditShareButton
                         title= {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                        url ="test.com" // change later
+                        url ="test.com" 
                       >
                         <RedditIcon/>
                       </RedditShareButton>
@@ -130,7 +130,7 @@ export default function QuoteCard(){
                      <TwitterShareButton
                       title = {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
                       hashtags = {['BTSarmy' , 'BTSquotesRandomizer' ,"BTS"]}
-                      url ='http://btsquotesrandomizer.com/' // change later
+                      url ='http://btsquotesrandomizer.com/' 
                      >
                        <TwitterIcon />
                      </TwitterShareButton>
@@ -138,7 +138,7 @@ export default function QuoteCard(){
                     <Grid item> 
                       <WhatsappShareButton
                         title = {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                        url = 'http://btsquotesrandomizer.com/' // change later
+                        url = 'http://btsquotesrandomizer.com/' 
                       >
                         <WhatsappIcon />
                       </WhatsappShareButton>
