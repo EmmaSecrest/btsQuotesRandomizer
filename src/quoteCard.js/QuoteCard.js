@@ -75,8 +75,7 @@ export default function QuoteCard(){
               direction="row"
               spacing={2}
               justifyContent="center"
-              alignSelf="flex-end"
-            >
+             >
               <Grid
                 container
                 spacing={3}
