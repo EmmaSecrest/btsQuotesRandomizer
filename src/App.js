@@ -22,7 +22,7 @@ export default function Main() {
             flexDirection="column"
             sx={{minHeight: '100vh', overflow: 'hidden'}}>
 
-        <Box sx={{flex: 1}}>
+        <Box sx={{flex: 1 }}>
           <Container maxWidth='false' disableGutters>
             <QuoteCard/>
           </Container>

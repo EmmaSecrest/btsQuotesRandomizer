@@ -51,8 +51,7 @@ export default function QuoteCard(){
         >
           <Container maxWidth="sm">
             <Box  
-              position="relative"
-              top="50%"
+              sx={{md:3}}
             >
               
                 
@@ -62,7 +61,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize= '2.6rem'
+                  fontSize= '2.5rem'
                   >
                   {quotes[quoteIndex].quote} 
                   
@@ -86,12 +85,12 @@ export default function QuoteCard(){
                 justifyContent="center"
                 alignItems="center"
                 position='relative'
-                
-               >
+                sx={{mt: 3}}
+                >
                 <Grid item>
                   <Button 
                     variant="outlined" 
-                    style ={{ color: "#d8c1e0" , fontFamily:"Arial", border:'1px solid #d8c1e0'  }} onClick = {() => getNewQuote()} > New Quote</Button> <br/>
+                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed'  }} onClick = {() => getNewQuote()} > New Quote</Button> <br/>
                 </Grid>
                 <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>
@@ -154,6 +153,7 @@ export default function QuoteCard(){
               </Grid>
                
               {/* <Button variant="outlined">Secondary action</Button>  */}
+              {/*merge issue fixed */}
             </Stack>
           </Container>
         </Box>
