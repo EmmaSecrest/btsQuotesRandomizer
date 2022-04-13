@@ -153,6 +153,7 @@ export default function QuoteCard(){
               </Grid>
                
               {/* <Button variant="outlined">Secondary action</Button>  */}
+              {/*merge issue fixed */}
             </Stack>
           </Container>
         </Box>
