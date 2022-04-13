@@ -46,6 +46,7 @@ export default function QuoteCard(){
             bgcolor: 'background.paper',
             pt: 8,
             pb: 6,
+            
           }}
         >
           <Container maxWidth="sm">
@@ -58,7 +59,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize= '3.5rem'
+                  fontSize= '2.6rem'
                   >
                   {quotes[quoteIndex].quote} 
                   

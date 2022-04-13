@@ -5,7 +5,6 @@ import Footer from './footer/footer';
 import Container from '@mui/material/Container';
 import {  ThemeProvider } from '@mui/material/styles';
 import  theme  from './theme';
-import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
 export default function Main() {
@@ -19,16 +18,18 @@ export default function Main() {
   <ThemeProvider theme={theme}>
     <CssBaseline />
     
-      <Container maxWidth='false' height= '100vw'  disableGutters>
-      <main>
-        {/* Hero unit */}
-        <QuoteCard/>
-        
-      </main>
-      {/* Footer */}
-      <Footer />
-      {/* End footer */}
-    </Container>
+    <Box  display="flex"
+            flexDirection="column"
+            sx={{minHeight: '100vh', overflow: 'hidden'}}>
+
+        <Box sx={{flex: 1}}>
+          <Container maxWidth='false' disableGutters>
+            <QuoteCard/>
+          </Container>
+        </Box>
+
+        <Footer />
+      </Box>
     
   </ThemeProvider>
   </Box>
