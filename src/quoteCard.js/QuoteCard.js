@@ -50,7 +50,10 @@ export default function QuoteCard(){
           }}
         >
           <Container maxWidth="sm">
-            <Box>
+            <Box  
+              position="relative"
+              top="50%"
+            >
               
                 
                 <Typography
@@ -65,32 +68,32 @@ export default function QuoteCard(){
                   
                 </Typography>
               
-            </Box>
+            
             <Typography variant="h5" align="center" color="#fff" paragraph fontStyle='italic'>
               - {quotes[quoteIndex].speaker}
             </Typography>
+            </Box>
             <Stack
-              sx={{ pt: 4 }}
+              sx={{ pt: 4 , marginBottom:"auto" }}
               direction="row"
               spacing={2}
               justifyContent="center"
-             
-            >
+             >
               <Grid
                 container
                 spacing={3}
                 direction="column"
                 justifyContent="center"
                 alignItems="center"
-                position= 'relative'
-                bottom= '100%'
-              >
+                position='relative'
+                
+               >
                 <Grid item>
                   <Button 
                     variant="outlined" 
                     style ={{ color: "#d8c1e0" , fontFamily:"Arial", border:'1px solid #d8c1e0'  }} onClick = {() => getNewQuote()} > New Quote</Button> <br/>
                 </Grid>
-                <Grid item container direction = 'horizontal' justifyContent = 'center'>
+                <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>
                     <FacebookShareButton 
                           quote={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
@@ -114,15 +117,9 @@ export default function QuoteCard(){
                       <EmailShareButton 
                         subject='BTS Quote of the Day!'
                         body={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-<<<<<<< HEAD
                         url='http://btsquotesrandomizer.com/'
-                        target = '_self'
-                        rel="noopener noreferrer"
-=======
-                        url='test.com' // change later
                         openShareDialogOnClick
                         onClick={() => {}}
->>>>>>> socialMediaShare
                       >
                         <EmailIcon />
                       </EmailShareButton>
@@ -130,7 +127,7 @@ export default function QuoteCard(){
                     <Grid item>
                       <RedditShareButton
                         title= {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                        url ="test.com" 
+                        url ="http://btsquotesrandomizer.com/" 
                       >
                         <RedditIcon/>
                       </RedditShareButton>
