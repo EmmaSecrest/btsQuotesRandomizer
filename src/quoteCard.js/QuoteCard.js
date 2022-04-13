@@ -50,7 +50,10 @@ export default function QuoteCard(){
           }}
         >
           <Container maxWidth="sm">
-            <Box  >
+            <Box  
+              position="relative"
+              top="50%"
+            >
               
                 
                 <Typography
@@ -82,8 +85,8 @@ export default function QuoteCard(){
                 direction="column"
                 justifyContent="center"
                 alignItems="center"
-                position='sticky'
-                sx ={{ mt: 8 }}
+                position='relative'
+                top = '30%'
                >
                 <Grid item>
                   <Button 
