@@ -4,7 +4,7 @@ import Copyright from './copyright';
 
 export default function Footer(){
     return(
-        <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
+        <Box sx={{ bgcolor: 'background.paper', p: 6  , position: 'relative' ,bottom: '0'  ,align: 'center'}} component="footer">
        
         <Typography
           variant="subtitle1"

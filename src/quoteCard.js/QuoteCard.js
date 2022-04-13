@@ -58,7 +58,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize = {40}
+                  fontSize= '3.5rem'
                   >
                   {quotes[quoteIndex].quote} 
                   
@@ -81,6 +81,8 @@ export default function QuoteCard(){
                 direction="column"
                 justifyContent="center"
                 alignItems="center"
+                position= 'relative'
+                bottom= '100%'
               >
                 <Grid item>
                   <Button 

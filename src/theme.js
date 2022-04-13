@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme , responsiveFontSizes} from '@mui/material/styles';
 
  const theme = createTheme({
     palette: {
@@ -23,9 +23,14 @@ import { createTheme } from '@mui/material/styles';
             color: "pink"
           },
       },
+      fontSize: 15,
+      h1: {
+        fontSize: '2rem',
+      },
       button: {
         textTransform: 'none'
       }
 })
+theme = responsiveFontSizes(theme)
 
 export default theme;

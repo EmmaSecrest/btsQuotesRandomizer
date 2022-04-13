@@ -5,7 +5,7 @@ export default function Copyright() {
     return (
       <Typography variant="body2" color="#fff" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://mui.com/">
+        <Link color="inherit" >
           BTSquotesRandomizer
         </Link>{' '}
         {new Date().getFullYear()}
