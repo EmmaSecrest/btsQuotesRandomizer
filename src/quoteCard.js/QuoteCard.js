@@ -114,9 +114,15 @@ export default function QuoteCard(){
                       <EmailShareButton 
                         subject='BTS Quote of the Day!'
                         body={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
+<<<<<<< HEAD
                         url='http://btsquotesrandomizer.com/'
                         target = '_self'
                         rel="noopener noreferrer"
+=======
+                        url='test.com' // change later
+                        openShareDialogOnClick
+                        onClick={() => {}}
+>>>>>>> socialMediaShare
                       >
                         <EmailIcon />
                       </EmailShareButton>
