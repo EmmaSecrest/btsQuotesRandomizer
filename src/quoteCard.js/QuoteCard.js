@@ -86,7 +86,8 @@ export default function QuoteCard(){
                 justifyContent="center"
                 alignItems="center"
                 position='relative'
-                top = '30%'
+                
+
                >
                 <Grid item>
                   <Button 
@@ -118,8 +119,8 @@ export default function QuoteCard(){
                         subject='BTS Quote of the Day!'
                         body={quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
                         url='http://btsquotesrandomizer.com/'
-                        target = '_self'
-                        rel="noopener noreferrer"
+                        openShareDialogOnClick
+                        onClick={() => {}}
                       >
                         <EmailIcon />
                       </EmailShareButton>
@@ -127,7 +128,7 @@ export default function QuoteCard(){
                     <Grid item>
                       <RedditShareButton
                         title= {quotes[quoteIndex].quote + '  -' + quotes[quoteIndex].speaker}
-                        url ="test.com" 
+                        url ="http://btsquotesrandomizer.com/" 
                       >
                         <RedditIcon/>
                       </RedditShareButton>
