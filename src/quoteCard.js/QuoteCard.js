@@ -41,17 +41,20 @@ export default function QuoteCard(){
   
     return(
         
-        <Box
+        <Container
           sx={{
             bgcolor: 'background.paper',
             pt: 8,
             pb: 6,
             
           }}
+          maxWidth="sm"
+          direction= 'column'
+          justify = 'center'
         >
-          <Container maxWidth="sm">
+          
             <Box  
-              sx={{md:3}}
+              sx={{md:3 , flex:1 , minHeight:"45vh"}}
             >
               
                 
@@ -61,7 +64,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize= '2.5rem'
+                  fontSize= '2.4rem'
                   >
                   {quotes[quoteIndex].quote} 
                   
@@ -72,12 +75,7 @@ export default function QuoteCard(){
               - {quotes[quoteIndex].speaker}
             </Typography>
             </Box>
-            <Stack
-              sx={{ pt: 4 , marginBottom:"auto" }}
-              direction="row"
-              spacing={2}
-              justifyContent="center"
-             >
+            
               <Grid
                 container
                 spacing={3}
@@ -154,9 +152,9 @@ export default function QuoteCard(){
                
               {/* <Button variant="outlined">Secondary action</Button>  */}
               {/*merge issue fixed */}
-            </Stack>
-          </Container>
-        </Box>
+            
+          
+        </Container>
     
     )
 }
