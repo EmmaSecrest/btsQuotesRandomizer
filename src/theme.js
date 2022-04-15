@@ -3,9 +3,7 @@ import { createTheme } from '@mui/material/styles';
  let theme = createTheme({
     palette: {
         type: 'dark',
-        primary: {
-          main: '#cb30a2',
-        },
+       
         secondary: {
           main: '#f50057',
         },
@@ -19,9 +17,7 @@ import { createTheme } from '@mui/material/styles';
         h2: {
             fontFamily: 'Maven Pro',
           },
-        allVariants: {
-            color: "pink"
-          },
+        
       },
       fontSize: 15,
       h1: {

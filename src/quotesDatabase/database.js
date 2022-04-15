@@ -648,7 +648,7 @@ export const quotes =[
         speaker:"Kim Taehyung"
     },
     {
-        quote:"We’re on some path that’s set since we’re born, but I still believe we can change some things. So I believe in my faith but I still don’t believe in my fate .",
+        quote:"We’re on some path that’s set since we’re born, but I still believe we can change some things. So I believe in my faith but I still don’t believe in my fate.",
         speaker:"Kim Namjoon"
     },
     {

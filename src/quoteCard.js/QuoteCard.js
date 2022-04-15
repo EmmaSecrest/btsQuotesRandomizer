@@ -44,7 +44,7 @@ export default function QuoteCard(){
         <Container
           sx={{
             bgcolor: 'background.paper',
-            pt: 8,
+            pt:1,
             pb: 6,
             
           }}

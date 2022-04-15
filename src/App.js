@@ -6,6 +6,8 @@ import Container from '@mui/material/Container';
 import {  ThemeProvider } from '@mui/material/styles';
 import  theme  from './theme';
 import Box from '@mui/material/Box';
+import Header from './header/header';
+
 
 export default function Main() {
   return (
@@ -17,11 +19,11 @@ export default function Main() {
   }}>
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    
+
     <Box  display="flex"
             flexDirection="column"
             sx={{minHeight: '100vh', overflow: 'hidden'}}>
-
+         <Header />
         <Box sx={{flex: 1 }}>
           <Container maxWidth='false' disableGutters>
             <QuoteCard/>
