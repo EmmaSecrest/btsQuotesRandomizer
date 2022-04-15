@@ -1,11 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { quotes } from '../quotesDatabase/database';
 import { useState } from 'react';
 import { Button } from '@material-ui/core';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 // import Grid from '@mui/material/Grid';
 
 import {
@@ -86,9 +86,17 @@ export default function QuoteCard(){
                 sx={{mt: 3}}
                 >
                 <Grid item>
-                  <Button 
-                    variant="outlined" 
-                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed'  }} onClick = {() => getNewQuote()} > New Quote</Button> <br/>
+                <Button 
+                    variant="contained" 
+                    startIcon = {<KeyboardDoubleArrowRightIcon />}
+                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed', backgroundColor:"transparent",
+                    //     hover:{
+                    //       backgroundColor: '#e7d8ed',
+                    //       color: 'transparent'
+                    // }
+                      }} 
+                    onClick = {() => getNewQuote()} > 
+                    New Quote</Button> 
                 </Grid>
                 <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>

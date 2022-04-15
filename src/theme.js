@@ -28,7 +28,8 @@ import { createTheme } from '@mui/material/styles';
         fontSize: '2.3rem',
       },
       button: {
-        textTransform: 'none'
+        // textTransform: 'none',
+        
       }
 })
 // theme = responsiveFontSizes(theme)
