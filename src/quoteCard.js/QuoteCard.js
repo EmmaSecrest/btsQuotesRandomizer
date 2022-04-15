@@ -89,12 +89,7 @@ export default function QuoteCard(){
                 <Button 
                     variant="outlined" 
                     startIcon = {<KeyboardDoubleArrowRightIcon />}
-                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed'  ,
-                        "&:hover":{
-                          bgcolor: '#e7d8ed',
-                          color: 'transparent'
-                        }
-                    
+                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed' 
                     }} 
                     onClick = {() => getNewQuote()} > 
                     New Quote</Button> 
