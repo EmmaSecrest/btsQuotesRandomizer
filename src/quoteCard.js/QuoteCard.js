@@ -87,14 +87,15 @@ export default function QuoteCard(){
                 >
                 <Grid item>
                 <Button 
-                    variant="contained" 
+                    variant="outlined" 
                     startIcon = {<KeyboardDoubleArrowRightIcon />}
-                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed', backgroundColor:"transparent",
-                    //     hover:{
-                    //       backgroundColor: '#e7d8ed',
-                    //       color: 'transparent'
-                    // }
-                      }} 
+                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed'  ,
+                        "&:hover":{
+                          bgcolor: '#e7d8ed',
+                          color: 'transparent'
+                        }
+                    
+                    }} 
                     onClick = {() => getNewQuote()} > 
                     New Quote</Button> 
                 </Grid>
