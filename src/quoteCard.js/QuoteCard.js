@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { quotes } from '../quotesDatabase/database';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { Button } from '@material-ui/core';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 // import Grid from '@mui/material/Grid';
@@ -29,15 +29,19 @@ import { Grid } from '@mui/material';
 
 export default function QuoteCard(){
    const quotesLength = quotes.length;
+   const storedRandomNumber = Number(localStorage.getItem('quoteIndex'))
+   const [quoteIndex ,setQuoteIndex] = useState(Number.isInteger(storedRandomNumber) ? storedRandomNumber : Math.floor(Math.random() * quotesLength))
    
-   const [quoteIndex ,setQuoteIndex] = useState(Math.floor(Math.random() * quotesLength))
-
    function getNewQuote(){
     //  console.log("You Clicked the button")
     setQuoteIndex(Math.floor(Math.random() * quotesLength))
    }
+   
+   useEffect(() => {
+    localStorage.setItem('quoteIndex', String(quoteIndex));
+  }, [quoteIndex]);
 
-  // need to stop quote reshuffle on reload
+  
   
     return(
         
