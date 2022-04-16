@@ -18,7 +18,8 @@ export default function Footer(){
             onClick={() =>  window.open('https://twitter.com/EmmaStudios4' , "_blank")} 
             sx = {{ml: 1 ,
               "&:hover": {
-                color: '#03c2fc'
+                color: '#03c2fc',
+                cursor:"pointer"
               },
               // border:"1px solid red",
               position: 'relative',
