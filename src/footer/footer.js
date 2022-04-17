@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Copyright from './copyright';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Link from '@mui/material/Link';
 
 export default function Footer(){
     return(
@@ -26,6 +27,13 @@ export default function Footer(){
               top:'0.5vh'
             }}
           />
+        </Typography>
+        <Typography
+          variant='h6'
+          align="center"
+          color="#fff"
+        >
+          Don't know who BTS is? <Link href = 'https://www.youtube.com/watch?v=kTlv5_Bs8aw&ab_channel=HYBELABELS' color = "#fff" sx = {{ "&:hover":{color:'#C8A3E5 '}}} target ='_blank'>Click here </Link> for our favorite MV! 
         </Typography>
         
         
