@@ -33,7 +33,7 @@ export default function Footer(){
           align="center"
           color="#fff"
         >
-          Don't know who BTS is? <Link href = 'https://www.youtube.com/watch?v=kTlv5_Bs8aw&ab_channel=HYBELABELS' color = "#fff" sx = {{ "&:hover":{color:'#C8A3E5 '}}} target ='_blank'>Click here </Link> for our favorite MV! 
+          Don't know who BTS is? <Link href = 'https://www.youtube.com/watch?v=kTlv5_Bs8aw&ab_channel=HYBELABELS' color = "#fff" sx = {{ "&:hover":{color:'#C8A3E5 '}}} target ='_blank'> Watch our favorite MV!</Link> 
         </Typography>
         
         

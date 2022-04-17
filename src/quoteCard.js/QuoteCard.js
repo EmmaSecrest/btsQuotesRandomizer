@@ -68,7 +68,7 @@ export default function QuoteCard(){
                   align="center"
                   color="#fff"
                   fontFamily='Arial'
-                  fontSize= '2.4rem'
+                  fontSize= '2.3rem'
                   >
                   {quotes[quoteIndex].quote} 
                   
@@ -93,7 +93,7 @@ export default function QuoteCard(){
                 <Button 
                     variant="outlined" 
                     startIcon = {<KeyboardDoubleArrowRightIcon />}
-                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed' 
+                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed', minHeight:"50px", minWidth:"75px", 
                     }} 
                     onClick = {() => getNewQuote()} > 
                     New Quote</Button> 
