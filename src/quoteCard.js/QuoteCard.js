@@ -98,15 +98,15 @@ export default function QuoteCard(){
                       onClick = {() => getNewQuote()} > 
                       New Quote</Button> 
                 </Grid>
-                <Grid item>
+                {/* <Grid item>
                 <Typography
                   variant='h5'
                   align="center"
                   color="#fff"
                 >
-                  Share on Social Media:
+                  Share:
                 </Typography>
-                </Grid>
+                </Grid> */}
                 <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>
                     <FacebookShareButton 
