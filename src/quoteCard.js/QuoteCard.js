@@ -90,13 +90,22 @@ export default function QuoteCard(){
                 sx={{mt: 3}}
                 >
                 <Grid item>
-                <Button 
-                    variant="outlined" 
-                    startIcon = {<KeyboardDoubleArrowRightIcon />}
-                    style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed', minHeight:"50px", minWidth:"75px", 
-                    }} 
-                    onClick = {() => getNewQuote()} > 
-                    New Quote</Button> 
+                  <Button 
+                      variant="outlined" 
+                      startIcon = {<KeyboardDoubleArrowRightIcon />}
+                      style ={{ color: "#e7d8ed" , fontFamily:"Arial", border:'1px solid #e7d8ed', minHeight:"50px", minWidth:"75px", 
+                      }} 
+                      onClick = {() => getNewQuote()} > 
+                      New Quote</Button> 
+                </Grid>
+                <Grid item>
+                <Typography
+                  variant='h5'
+                  align="center"
+                  color="#fff"
+                >
+                  Share on Social Media:
+                </Typography>
                 </Grid>
                 <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>
