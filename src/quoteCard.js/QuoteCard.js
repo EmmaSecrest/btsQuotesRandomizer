@@ -29,7 +29,6 @@ import { Grid } from '@mui/material';
 
 export default function QuoteCard(){
    const quotesLength = quotes.length;
-   const storedIndex = Number(localStorage.getItem('quoteIndex'))
    const [quoteIndex ,setQuoteIndex] = useState( Math.floor(Math.random() * quotesLength))
 
    useEffect(() => {
