@@ -31,12 +31,7 @@ export default function QuoteCard(){
    const quotesLength = quotes.length;
    const [quoteIndex ,setQuoteIndex] = useState(JSON.parse(localStorage.getItem("quoteIndex")) || Math.floor(Math.random() * quotesLength))
 
-  //  useEffect(() => {
-  //   setQuoteIndex(JSON.parse(window.localStorage.getItem("quoteIndex")));
-  // }, []);
-
-   
-  useEffect(() => {
+    useEffect(() => {
     window.localStorage.setItem("quoteIndex", quoteIndex);
   }, [quoteIndex]);
 
@@ -102,15 +97,15 @@ export default function QuoteCard(){
                       onClick = {() => getNewQuote()} > 
                       New Quote</Button> 
                 </Grid>
-                {/* <Grid item>
+                <Grid item>
                 <Typography
                   variant='h5'
                   align="center"
                   color="#fff"
                 >
-                  Share:
+                  Share This Quote:
                 </Typography>
-                </Grid> */}
+                </Grid>
                 <Grid item container direction = 'horizontal' justifyContent = 'center' >
                     <Grid item>
                     <FacebookShareButton 
