@@ -29,16 +29,16 @@ import { Grid } from '@mui/material';
 
 export default function QuoteCard(){
    const quotesLength = quotes.length;
-   
-   const [quoteIndex ,setQuoteIndex] = useState( Math.floor(Math.random() * quotesLength))
+   const storedIndex = Number(localStorage.getItem('quoteIndex'))
+   const [quoteIndex ,setQuoteIndex] = useState(Number.isInteger(storedIndex) ? storedIndex : Math.floor(Math.random() * quotesLength))
 
-   useEffect(() => {
-    setQuoteIndex(JSON.parse(window.sessionStorage.getItem("quoteIndex")));
-  }, []);
+  //  useEffect(() => {
+  //   setQuoteIndex(JSON.parse(window.localStorage.getItem("quoteIndex")));
+  // }, []);
 
    
   useEffect(() => {
-    window.sessionStorage.setItem("quoteIndex", quoteIndex);
+    window.localStorage.setItem("quoteIndex", quoteIndex);
   }, [quoteIndex]);
 
    function getNewQuote(){
